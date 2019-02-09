@@ -10,6 +10,7 @@ if __name__ == "__main__":
         # The above import may fail for some other reason. Ensure that the
         # issue is really that Django is missing to avoid masking other
         # exceptions on Python 2.
+		# rqa
         try:
             import django
         except ImportError:
@@ -19,4 +20,10 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
-    execute_from_command_line(sys.argv)
+    
+	
+	execute_from_command_line(sys.argv)
+	
+	
+	
+	
